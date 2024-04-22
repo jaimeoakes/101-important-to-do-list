@@ -16,15 +16,15 @@ The Challenge you have before class will ask you to repeat what we did together 
 
 <hr/>
 
-* **Step 1**: Fork and Clone this repo into your `DevFolder`
-* **Step 2**: Open the code in VS Code, read the `index.html` file to see if you know what it's doing.
-* **Step 3**: Start Live server and test the first input
+* **Step 1**: Fork and Clone this repo into your `DevFolder` -->
+* **Step 2**: Open the code in VS Code, read the `index.html` file to see if you know what it's doing. -->
+* **Step 3**: Start Live server and test the first input -->
 * **Step 4**: Use the existing code to create three Section Elements titled with H2 elements:
   * "Things I Can Control"
   * "Things I Can't Control"
-  * "Things I Must Accept"
-* **Step 5**: Follow the logic of how the "Things I Can Control" input & button works to make the "Things I Can't Control" input & button work.
-* **Step 6**: Test to perfection before moving on.
+  * "Things I Must Accept" -->
+* **Step 5**: Follow the logic of how the "Things I Can Control" input & button works to make the "Things I Can't Control" input & button work. -->
+* **Step 6**: Test to perfection before moving on. 
 * **Step 7**: Repeat the process for the third section: "Things I Must Accept"
 * **Step 8**: Bring this into class with you.
 * **Step 9**: `git status`, `git add -A`, `git status`, `git commit -m "finished"`, `git push`

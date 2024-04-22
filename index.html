@@ -20,20 +20,30 @@
       <button onclick="createObjectIn_Cant_ControlList();">Can't Control</button>
     </section>
 
-    <section>
-      <h2>Things I Must Accept</h2>
+    <section id="things-i-must-accept">
+      <h2>Things I MUST ACCEPT</h2>
+      <input value="" onkeyup="setValueOf_Cant_Control(this.value)"/> 
+      <button onclick="createObjectIn_Cant_ControlList();">I Must Accept</button>
     </section>
 
     <script>
-      let thingI_Can_Control;
+      let thingI_Can_Control; // let podemos INICIAR sem precisar do valor; const nos precisamos incluir o valor INICIALMENTE.
       let thingI_Cant_Control;
+      let thingI_Must_Accept;
 
-      function setValueOf_Can_Control(input) {
+      function setValueOf_Can_Control(input) { // outra forma de criar uma função com 'FUNCTION';
         thingI_Can_Control = input
         console.log({usersInput})
       }
       
-      function setValueOf_Cant_Control() {
+      function setValueOf_Cant_Control(input) {
+        thingI_Cant_Control = input
+        console.log({usersInput})
+      }
+
+      function setValueOf_Cant_Control(input) {
+        thingI_Must_Accept = input
+        console.log({usersInput})
       }
 
       function createObjectIn_Can_ControlList() {
